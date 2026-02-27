@@ -2,9 +2,32 @@
   "permissions": {
     "allow": [
       "Bash(dir:*)",
-      "Bash(git init:*)",
-      "Bash(git add:*)",
-      "Bash(git commit:*)"
+      "Bash(git*)",
+      "Search(*)",
+      "Webfetch(*)",
+      "Bash(git push:*)",
+      "Bash(powercfg /SETACVALUEINDEX:*)",
+      "Bash(powercfg:*)",
+      "Read(*)",
+      "WebSearch(*)",
+      "WebFetch(*)",
+      "Bash(echo:*)",
+      "Bash(powershell -Command \"[Environment]::GetEnvironmentVariable\\('PATH', 'User'\\)\":*)",
+      "Bash(powershell -Command:*)",
+      "Bash(export PATH:*)",
+      "Bash(gog --version:*)",
+      "Bash(cmd /c \"where gog\")",
+      "Bash(cmd /c:*)",
+      "Bash(tr:*)",
+      "Bash(gog auth --help:*)",
+      "Bash(gog auth:*)",
+      "Bash(ZONEINFO=\"C:/Program Files/Go/lib/time/zoneinfo.zip\" gog calendar:*)",
+      "Bash(gog drive list:*)",
+      "Bash(gog drive ls:*)",
+      "Bash(gog calendar events --help:*)",
+      "Bash(go version:*)",
+      "Bash(go env:*)",
+      "Bash(export ZONEINFO=\"C:\\\\Users\\\\Jonathan Chamberlin\\\\bin\\\\zoneinfo.zip\")"
     ]
   }
 }
